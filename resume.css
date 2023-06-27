@@ -17,7 +17,8 @@ body {
 .navbar {
   background: #040b14;
   margin: auto;
-  width: 20%;
+  margin-top:1%;
+  width: 23%;
   height: 600px;
   overflow: hidden;
   border-radius: 50px;
@@ -28,11 +29,10 @@ body {
 .navbar img {
   visibility: hidden;
   margin-top: 8%;
-  margin-left: 0%;
+  margin-left: 11%;
   border: 8px solid #2c2f3f;
   border-radius: 50%;
   height: 100px;
-  margin-left: 14%;
   width: 0px;
   transition: visibility, width 1s linear;
 }
@@ -98,7 +98,7 @@ body {
 .navbar:has(li:hover) h1 {
   visibility: visible;
   padding-left: 6%;
-  font-size: 24px;
+  font-size: 22px;
 }
 
 .navbar:has(li:active) img,
@@ -149,6 +149,7 @@ body {
 
 .social ul {
   list-style: none;
+  padding-left: 3%;
 }
 
 .social ul li {
@@ -170,7 +171,7 @@ body {
 /* Style for Resume */
 
 .Resume {
-  height: 85%;
+  height: 70%;
   overflow-y: auto;
   z-index: 1;
   margin: 3% 0;
@@ -178,7 +179,7 @@ body {
   width: 130%;
   border-top-right-radius: 40px;
   border-bottom-right-radius: 40px;
-  font-size: 14pt;
+  font-size: 13pt;
   line-height: 24pt;
 }
 
@@ -228,14 +229,13 @@ body {
 
 #About-content .right ul {
   list-style: none;
-  padding-left: 10%;
+  padding-left: 8%;
 }
 
 #About-content .right ul li {
   padding: 0%;
   margin: 0%;
   border-bottom: 1px solid #b4c0ce;
-  font-size: 14pt;
 }
 
 #About-content .right ul li span {
@@ -251,25 +251,24 @@ body {
 }
 
 #About-content .right ul li:nth-child(1) p {
-  padding-left: 29%
+  padding-left: 27%
 }
 
 #About-content .right ul li:nth-child(2) p {
-  padding-left: 12%
+  padding-left: 11%
 }
 
 #About-content .right ul li:nth-child(3) p {
-  padding-left: 8%
+  padding-left: 5%
 }
 
 #About-content .right ul li:nth-child(4) p {
-  padding-left: 19%
+  padding-left: 17%
 }
 
 #About-content .left {
   text-align: justify;
   text-justify: inter-word;
-  font-size: 14pt;
   line-height: 24pt;
   padding: 0% 3%;
 }
@@ -329,7 +328,7 @@ body {
 
 .Contact-card ul li>span {
   background-color: #2b5de9ea;
-  padding: 0.5% 2%;
+  padding: 2%;
   border-radius: 3px;
   color: white;
 }
@@ -365,13 +364,13 @@ body {
 .Contact-form textarea {
   padding: 2%;
   margin: 2%;
-  width: 55%;
+  width: 69%;
   height: 100px;
   border: 2px solid #2b5de9ea;
 }
 
 .button {
-  padding: 1% 21.5% ;
+  padding: 1% 27% ;
   margin: 2%;
   background-color: #2b5de9ea;
   color: white;
